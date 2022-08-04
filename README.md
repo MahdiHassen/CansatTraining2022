@@ -24,7 +24,7 @@ below is an explination of each function
 getTemp():
 
   The function reads the analog output of the TMP36 sensor as a value from 0-1023.
-  This value is then turned into a voltage by dividing by 1023, then muktiplying by 5v (the input voltage) we can then multiply by 1000 to get the voltage in units of mV.
+  This value is then turned into a voltage by dividing by 1023, then multiplying by 5v (the input voltage) we can then multiply by 1000 to get the voltage in units of mV.
   Then we use the formula (Voltage-500)/10 to get a tempreture which we store in the "temp" var.
   
 servoMatch():
